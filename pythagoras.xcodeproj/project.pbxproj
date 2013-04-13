@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		791464FD171A17B500B442D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791464FC171A17B500B442D0 /* UIKit.framework */; };
+		791464FF171A17B500B442D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791464FE171A17B500B442D0 /* Foundation.framework */; };
+		79146501171A17B500B442D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79146500171A17B500B442D0 /* CoreGraphics.framework */; };
+		79146507171A17B500B442D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79146505171A17B500B442D0 /* InfoPlist.strings */; };
+		79146509171A17B500B442D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79146508171A17B500B442D0 /* main.m */; };
+		7914650D171A17B500B442D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7914650C171A17B500B442D0 /* AppDelegate.m */; };
+		7914650F171A17B500B442D0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7914650E171A17B500B442D0 /* Default.png */; };
+		79146511171A17B500B442D0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79146510171A17B500B442D0 /* Default@2x.png */; };
+		79146513171A17B500B442D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79146512171A17B500B442D0 /* Default-568h@2x.png */; };
+		79146521171A17B500B442D0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79146520171A17B500B442D0 /* SenTestingKit.framework */; };
+		79146522171A17B500B442D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791464FC171A17B500B442D0 /* UIKit.framework */; };
+		79146523171A17B500B442D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 791464FE171A17B500B442D0 /* Foundation.framework */; };
+		7914652B171A17B500B442D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79146529171A17B500B442D0 /* InfoPlist.strings */; };
+		7914652E171A17B500B442D0 /* pythagorasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7914652D171A17B500B442D0 /* pythagorasTests.m */; };
+		79146545171A3D8A00B442D0 /* ComposedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79146543171A3D8900B442D0 /* ComposedViewController.m */; };
+		79146546171A3D8A00B442D0 /* ComposedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79146544171A3D8A00B442D0 /* ComposedViewController.xib */; };
+		79146549171A432600B442D0 /* NumbersDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 79146548171A432600B442D0 /* NumbersDescription.m */; };
+		7914654D171A59B000B442D0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7914654C171A59B000B442D0 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79146524171A17B500B442D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 791464F1171A17B500B442D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791464F8171A17B500B442D0;
+			remoteInfo = pythagoras;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		791464F9171A17B500B442D0 /* Pythagoras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pythagoras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		791464FC171A17B500B442D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		791464FE171A17B500B442D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		79146500171A17B500B442D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		79146504171A17B500B442D0 /* pythagoras-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pythagoras-Info.plist"; sourceTree = "<group>"; };
+		79146506171A17B500B442D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79146508171A17B500B442D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7914650A171A17B500B442D0 /* pythagoras-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pythagoras-Prefix.pch"; sourceTree = "<group>"; };
+		7914650B171A17B500B442D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7914650C171A17B500B442D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7914650E171A17B500B442D0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		79146510171A17B500B442D0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		79146512171A17B500B442D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7914651F171A17B500B442D0 /* pythagorasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pythagorasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79146520171A17B500B442D0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		79146528171A17B500B442D0 /* pythagorasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pythagorasTests-Info.plist"; sourceTree = "<group>"; };
+		7914652A171A17B500B442D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7914652C171A17B500B442D0 /* pythagorasTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pythagorasTests.h; sourceTree = "<group>"; };
+		7914652D171A17B500B442D0 /* pythagorasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pythagorasTests.m; sourceTree = "<group>"; };
+		79146542171A3D8900B442D0 /* ComposedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposedViewController.h; sourceTree = "<group>"; };
+		79146543171A3D8900B442D0 /* ComposedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposedViewController.m; sourceTree = "<group>"; };
+		79146544171A3D8A00B442D0 /* ComposedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposedViewController.xib; sourceTree = "<group>"; };
+		79146547171A432600B442D0 /* NumbersDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersDescription.h; sourceTree = "<group>"; };
+		79146548171A432600B442D0 /* NumbersDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersDescription.m; sourceTree = "<group>"; };
+		7914654C171A59B000B442D0 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		791464F6171A17B500B442D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791464FD171A17B500B442D0 /* UIKit.framework in Frameworks */,
+				791464FF171A17B500B442D0 /* Foundation.framework in Frameworks */,
+				79146501171A17B500B442D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7914651B171A17B500B442D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79146521171A17B500B442D0 /* SenTestingKit.framework in Frameworks */,
+				79146522171A17B500B442D0 /* UIKit.framework in Frameworks */,
+				79146523171A17B500B442D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791464F0171A17B500B442D0 = {
+			isa = PBXGroup;
+			children = (
+				79146502171A17B500B442D0 /* pythagoras */,
+				79146526171A17B500B442D0 /* pythagorasTests */,
+				791464FB171A17B500B442D0 /* Frameworks */,
+				791464FA171A17B500B442D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		791464FA171A17B500B442D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				791464F9171A17B500B442D0 /* Pythagoras.app */,
+				7914651F171A17B500B442D0 /* pythagorasTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		791464FB171A17B500B442D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				791464FC171A17B500B442D0 /* UIKit.framework */,
+				791464FE171A17B500B442D0 /* Foundation.framework */,
+				79146500171A17B500B442D0 /* CoreGraphics.framework */,
+				79146520171A17B500B442D0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79146502171A17B500B442D0 /* pythagoras */ = {
+			isa = PBXGroup;
+			children = (
+				7914650B171A17B500B442D0 /* AppDelegate.h */,
+				7914650C171A17B500B442D0 /* AppDelegate.m */,
+				79146542171A3D8900B442D0 /* ComposedViewController.h */,
+				79146543171A3D8900B442D0 /* ComposedViewController.m */,
+				79146547171A432600B442D0 /* NumbersDescription.h */,
+				79146548171A432600B442D0 /* NumbersDescription.m */,
+				79146544171A3D8A00B442D0 /* ComposedViewController.xib */,
+				79146503171A17B500B442D0 /* Supporting Files */,
+			);
+			path = pythagoras;
+			sourceTree = "<group>";
+		};
+		79146503171A17B500B442D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79146504171A17B500B442D0 /* pythagoras-Info.plist */,
+				79146505171A17B500B442D0 /* InfoPlist.strings */,
+				79146508171A17B500B442D0 /* main.m */,
+				7914650A171A17B500B442D0 /* pythagoras-Prefix.pch */,
+				7914650E171A17B500B442D0 /* Default.png */,
+				79146510171A17B500B442D0 /* Default@2x.png */,
+				79146512171A17B500B442D0 /* Default-568h@2x.png */,
+				7914654C171A59B000B442D0 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79146526171A17B500B442D0 /* pythagorasTests */ = {
+			isa = PBXGroup;
+			children = (
+				7914652C171A17B500B442D0 /* pythagorasTests.h */,
+				7914652D171A17B500B442D0 /* pythagorasTests.m */,
+				79146527171A17B500B442D0 /* Supporting Files */,
+			);
+			path = pythagorasTests;
+			sourceTree = "<group>";
+		};
+		79146527171A17B500B442D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79146528171A17B500B442D0 /* pythagorasTests-Info.plist */,
+				79146529171A17B500B442D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		791464F8171A17B500B442D0 /* pythagoras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79146531171A17B500B442D0 /* Build configuration list for PBXNativeTarget "pythagoras" */;
+			buildPhases = (
+				791464F5171A17B500B442D0 /* Sources */,
+				791464F6171A17B500B442D0 /* Frameworks */,
+				791464F7171A17B500B442D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pythagoras;
+			productName = pythagoras;
+			productReference = 791464F9171A17B500B442D0 /* Pythagoras.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7914651E171A17B500B442D0 /* pythagorasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79146534171A17B500B442D0 /* Build configuration list for PBXNativeTarget "pythagorasTests" */;
+			buildPhases = (
+				7914651A171A17B500B442D0 /* Sources */,
+				7914651B171A17B500B442D0 /* Frameworks */,
+				7914651C171A17B500B442D0 /* Resources */,
+				7914651D171A17B500B442D0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79146525171A17B500B442D0 /* PBXTargetDependency */,
+			);
+			name = pythagorasTests;
+			productName = pythagorasTests;
+			productReference = 7914651F171A17B500B442D0 /* pythagorasTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		791464F1171A17B500B442D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Vojta Jína";
+			};
+			buildConfigurationList = 791464F4171A17B500B442D0 /* Build configuration list for PBXProject "pythagoras" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 791464F0171A17B500B442D0;
+			productRefGroup = 791464FA171A17B500B442D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				791464F8171A17B500B442D0 /* pythagoras */,
+				7914651E171A17B500B442D0 /* pythagorasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		791464F7171A17B500B442D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79146507171A17B500B442D0 /* InfoPlist.strings in Resources */,
+				7914650F171A17B500B442D0 /* Default.png in Resources */,
+				79146511171A17B500B442D0 /* Default@2x.png in Resources */,
+				79146513171A17B500B442D0 /* Default-568h@2x.png in Resources */,
+				79146546171A3D8A00B442D0 /* ComposedViewController.xib in Resources */,
+				7914654D171A59B000B442D0 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7914651C171A17B500B442D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7914652B171A17B500B442D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7914651D171A17B500B442D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		791464F5171A17B500B442D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79146509171A17B500B442D0 /* main.m in Sources */,
+				7914650D171A17B500B442D0 /* AppDelegate.m in Sources */,
+				79146545171A3D8A00B442D0 /* ComposedViewController.m in Sources */,
+				79146549171A432600B442D0 /* NumbersDescription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7914651A171A17B500B442D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7914652E171A17B500B442D0 /* pythagorasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79146525171A17B500B442D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791464F8171A17B500B442D0 /* pythagoras */;
+			targetProxy = 79146524171A17B500B442D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79146505171A17B500B442D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79146506171A17B500B442D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79146529171A17B500B442D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7914652A171A17B500B442D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7914652F171A17B500B442D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79146530171A17B500B442D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79146532171A17B500B442D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pythagoras/pythagoras-Prefix.pch";
+				INFOPLIST_FILE = "pythagoras/pythagoras-Info.plist";
+				PRODUCT_NAME = Pythagoras;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		79146533171A17B500B442D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pythagoras/pythagoras-Prefix.pch";
+				INFOPLIST_FILE = "pythagoras/pythagoras-Info.plist";
+				PRODUCT_NAME = Pythagoras;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		79146535171A17B500B442D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pythagoras.app/pythagoras";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pythagoras/pythagoras-Prefix.pch";
+				INFOPLIST_FILE = "pythagorasTests/pythagorasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		79146536171A17B500B442D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pythagoras.app/pythagoras";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pythagoras/pythagoras-Prefix.pch";
+				INFOPLIST_FILE = "pythagorasTests/pythagorasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		791464F4171A17B500B442D0 /* Build configuration list for PBXProject "pythagoras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7914652F171A17B500B442D0 /* Debug */,
+				79146530171A17B500B442D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79146531171A17B500B442D0 /* Build configuration list for PBXNativeTarget "pythagoras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79146532171A17B500B442D0 /* Debug */,
+				79146533171A17B500B442D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79146534171A17B500B442D0 /* Build configuration list for PBXNativeTarget "pythagorasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79146535171A17B500B442D0 /* Debug */,
+				79146536171A17B500B442D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 791464F1171A17B500B442D0 /* Project object */;
+}

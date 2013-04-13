@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  pythagoras
+
+  Created by Vojta Jína on 4/13/13.
+  Copyright (c) 2013 Vojta Jína. All rights reserved.
+*/
+
+"1_personal" = "Personal number one is the best.";
+"1_action" = "";
+"1_heritage" = "";
+"1_internal" = "";
+"1_external" = "";
+"1_faith" = "";
+
+"2_personal" = "";
+"2_action" = "Action number two is pretty bad.";
+"2_heritage" = "";
+"2_internal" = "";
+"2_external" = "";
+"2_faith" = "";
+
+"3_personal" = "";
+"3_action" = "";
+"3_heritage" = "";
+"3_internal" = "";
+"3_external" = "";
+"3_faith" = "";
+
+"4_personal" = "";
+"4_action" = "";
+"4_heritage" = "";
+"4_internal" = "";
+"4_external" = "";
+"4_faith" = "";
+
+"5_personal" = "";
+"5_action" = "";
+"5_heritage" = "";
+"5_internal" = "";
+"5_external" = "";
+"5_faith" = "";
+
+"6_personal" = "";
+"6_action" = "";
+"6_heritage" = "";
+"6_internal" = "";
+"6_external" = "";
+"6_faith" = "";
+
+"7_personal" = "";
+"7_action" = "";
+"7_heritage" = "";
+"7_internal" = "";
+"7_external" = "";
+"7_faith" = "";
+
+"8_personal" = "";
+"8_action" = "";
+"8_heritage" = "";
+"8_internal" = "";
+"8_external" = "";
+"8_faith" = "";
+
+"9_personal" = "";
+"9_action" = "";
+"9_heritage" = "";
+"9_internal" = "";
+"9_external" = "";
+"9_faith" = "";
+
+"11_personal" = "Is the best number, because it's Caitlin's number!";
+"11_action" = "";
+"11_heritage" = "";
+"11_internal" = "";
+"11_external" = "";
+"11_faith" = "";
+
+"22_personal" = "";
+"22_action" = "";
+"22_heritage" = "";
+"22_internal" = "";
+"22_external" = "";
+"22_faith" = "";
