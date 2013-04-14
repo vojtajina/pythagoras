@@ -22,16 +22,10 @@
 - (id)initForName:(NSString *)firstName
          lastName:(NSString *)lastName;
 
-- (NSUInteger)normalize:(NSUInteger)number;
+// helper methods
 - (NSUInteger)charValue:(unichar)character;
 - (bool)isVowel:(unichar)character;
 - (NSUInteger)sum:(NSUInteger)number;
 - (NSString *)removeSpecialChars:(NSString *)str;
-
-
-// FORMATTING
-
-@property(nonatomic, strong) NSArray *titles;
-@property(nonatomic, strong) NSArray *descriptions;
 
 @end

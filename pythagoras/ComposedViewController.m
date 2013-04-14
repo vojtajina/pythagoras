@@ -8,6 +8,8 @@
 
 #import "ComposedViewController.h"
 #import "NumbersDescription.h"
+#import "NumbersFormatter.h"
+
 
 @interface ComposedViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *firstNameField;
@@ -48,12 +50,13 @@
 
 
 - (IBAction)updateNumbers {
-  _description = [[NumbersDescription alloc] initForName: _firstNameField.text lastName: _lastNameField.text];
+  NumbersDescription *description = [[NumbersDescription alloc] initForName: _firstNameField.text lastName: _lastNameField.text];
+  _formatter = [[NumbersFormatter alloc] initWithDescription:description];
   [_numbersTable reloadData];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-  if (_description == nil) {
+  if (_formatter == nil) {
     return 0;
   }
   
@@ -61,12 +64,12 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-  return _description.titles.count;
+  return _formatter.rowsCount;
 }
 
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-  return [NSString stringWithFormat:@"Numbers for %@ %@", _description.first, _description.last];
+  return _formatter.title;
 }
 
 
@@ -79,8 +82,8 @@
     cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
   }
   
-  cell.textLabel.text = [_description.titles objectAtIndex:indexPath.row];
-  cell.detailTextLabel.text = [_description.descriptions objectAtIndex:indexPath.row];
+  cell.textLabel.text = [_formatter titleAtIndex:indexPath.row];
+  cell.detailTextLabel.text = [_formatter descriptionAtIndex:indexPath.row];
   
   return cell;
 }

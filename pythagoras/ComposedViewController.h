@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NumbersDescription.h"
+#import "NumbersFormatter.h"
 
 @interface ComposedViewController : UIViewController
 
-@property(nonatomic, strong) NumbersDescription *description;
+@property(nonatomic, strong) NumbersFormatter *formatter;
 
 - (IBAction)updateNumbers;
 

@@ -25,6 +25,7 @@
 		79146546171A3D8A00B442D0 /* ComposedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79146544171A3D8A00B442D0 /* ComposedViewController.xib */; };
 		79146549171A432600B442D0 /* NumbersDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 79146548171A432600B442D0 /* NumbersDescription.m */; };
 		7914654D171A59B000B442D0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7914654C171A59B000B442D0 /* Localizable.strings */; };
+		79DCEEBD171B387100485877 /* NumbersFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DCEEBC171B387100485877 /* NumbersFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		79146547171A432600B442D0 /* NumbersDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersDescription.h; sourceTree = "<group>"; };
 		79146548171A432600B442D0 /* NumbersDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersDescription.m; sourceTree = "<group>"; };
 		7914654C171A59B000B442D0 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		79DCEEBB171B387100485877 /* NumbersFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumbersFormatter.h; sourceTree = "<group>"; };
+		79DCEEBC171B387100485877 /* NumbersFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumbersFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				79146548171A432600B442D0 /* NumbersDescription.m */,
 				79146544171A3D8A00B442D0 /* ComposedViewController.xib */,
 				79146503171A17B500B442D0 /* Supporting Files */,
+				79DCEEBB171B387100485877 /* NumbersFormatter.h */,
+				79DCEEBC171B387100485877 /* NumbersFormatter.m */,
 			);
 			path = pythagoras;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 				7914650D171A17B500B442D0 /* AppDelegate.m in Sources */,
 				79146545171A3D8A00B442D0 /* ComposedViewController.m in Sources */,
 				79146549171A432600B442D0 /* NumbersDescription.m in Sources */,
+				79DCEEBD171B387100485877 /* NumbersFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

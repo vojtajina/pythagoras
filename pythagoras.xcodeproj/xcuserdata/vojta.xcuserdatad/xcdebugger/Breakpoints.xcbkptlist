@@ -7,32 +7,6 @@
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "pythagoras/NumbersDescription.m"
-         timestampString = "387621724.752931"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "73"
-         endingLineNumber = "73"
-         landmarkName = "-initForName:lastName:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "pythagoras/NumbersDescription.m"
-         timestampString = "387621724.752931"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "87"
-         endingLineNumber = "87"
-         landmarkName = "-initForName:lastName:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
          filePath = "pythagorasTests/pythagorasTests.m"
          timestampString = "387657717.554613"
          startingColumnNumber = "9223372036854775807"
@@ -47,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "pythagoras/NumbersDescription.m"
-         timestampString = "387656694.893129"
+         timestampString = "387659928.181606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "53"
-         endingLineNumber = "53"
+         startingLineNumber = "47"
+         endingLineNumber = "47"
          landmarkName = "-initForName:lastName:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,12 +34,25 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "pythagoras/NumbersDescription.m"
-         timestampString = "387656743.572122"
+         timestampString = "387659928.181606"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "40"
-         endingLineNumber = "40"
+         startingLineNumber = "34"
+         endingLineNumber = "34"
          landmarkName = "-initForName:lastName:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "pythagoras/NumbersFormatter.m"
+         timestampString = "387660085.553998"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "48"
+         endingLineNumber = "48"
+         landmarkName = "-initWithDescription:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
