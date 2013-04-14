@@ -9,6 +9,9 @@
 #import "NumbersFormatter.h"
 #import "NumbersDescription.h"
 
+// TODO(vojta): handle 0 numbers (eg. one name not filled out)
+// TODO(vojta): show more details
+// (http://www.cocoanetics.com/2011/03/expandingcollapsing-tableview-sections/)
 
 static NSArray *PERSONAL = nil;
 static NSArray *ACTION = nil;
